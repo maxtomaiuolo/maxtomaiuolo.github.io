@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>JNL 221 - DV3</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="row">
+        <header class="col bg-secondary text-white p-2 mb-4">
+          <h3>JNL 221: Data Visualization Assignment 6</h3>
+        </header>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-7">
+
+
+          <h1>Were Major League Baseball hitters lucky or unlucky in 2022?</h1>
+
+
+
+          <!-- PLACE YOUR DATAWRAPPER <iframe> DIRECTLY UNDERNEATH ME! -->
+
+           <iframe title="2022 MLB Player Batting Average vs. Expected Batting Average" aria-label="Scatter Plot" id="datawrapper-chart-bMIJ1" src="https://datawrapper.dwcdn.net/bMIJ1/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
+          
+          <!-- PLACE YOUR DATAWRAPPER <iframe> ABOVE ME!-->
+                      <p>This scatterplot shows the relationship between a MLB player's batting average versus his expected batting average in the 2022 regular season. Each star represents an individual player, and the sample size of 252 players represent those with at least 341 plate appearances. The x-axis represents the actual batting of the player. The y-axis shows the difference between one's batting average and expected batting average. To find out each expected batting average, hover over one of the players.</p>
+
+<p>If the difference between the averages is positive, a player's batting average was higher than his expected batting average. The best example of this is Paul Goldschmidt, whose batting average was .317 compared to his expected .261. If a player has a negative differential, they were unlucky, with a batting average lower than expected. Carlos Santana (BA .201 vs xBA .253) is a good example of this scenario.</p>
+        
+        </div>
+
+      </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
