@@ -1,72 +1,83 @@
 body {
-  font-family: Arial, sans-serif;
-  max-width: 950px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 20px;
-  padding-left: 20px;
+  margin: 0px;
+}
+
+nav {
+  border-top: 20px solid darkblue;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 330px;
+  background: url(https://cdn.logojoy.com/wp-content/uploads/20210709120855/nfl-logo.png);
+}
+
+.sitemotto {
+  color: #de2f23;
+  font-family: Basier, Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+article {
+  margin-left: 10%;
+  width: 60%;
 }
 
 header {
-  background-color: darkblue;
-  font-size: 30px;
-  color: white;
-  font-family: Impact;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-bottom: 15px;
-}
-
-.caption {
-  max-width: 50rem;
-  font-size: 12px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 5px;
-}
-
-
-blockquote: {
-  font-family: Arial;
-  font-style: italic;
-}
-
-img {
-  width: 100%;
-  padding-top: 20px;
-}
-
-.differentcaption {
-  font-size: 80px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 5px
+    font-family: Times, sans-serif;
+    font-size: 20px;
 }
 
 h1 {
-  font-style: normal;
-  font-size: 30px;
-  font-family: Arial;
+  font-size: 46px;
+  font-family: Impact;
+
 }
 
-h2 {
-  font-size: 12px;
-  margin-bottom: 1.5rem;
+.byline {
+  font-weight: bold;
+  font-family: times;
 }
 
-p {
-  font-size: 15px;
+.tdpad {
+  padding: 15px;
+}
+
+article > p {
+  font-family: Pensum, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+.story_image {
+  width: 100%;
 }
 
 .caption {
-  font-size: 10px;
+  color: gray;
+  font-size: 14px;
+  margin-top: 5px;
 }
-.otherimg {
-  max-width: 50rem;
-  margin-left: auto;
-  margin-right: auto;
+
+footer {
   margin-top: 30px;
-  margin-bottom: 30px;
+  font-family: Basier, Arial, sans-serif;
+}
+
+footer > p {
+  font-size: 14px;
+  color: #666;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #717171;
+  text-decoration-color: #ffcb04;
 }
